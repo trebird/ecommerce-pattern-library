@@ -1,12 +1,11 @@
 :root {
   --color-primary: #afbabc;
-  --color-secondary: #e6e5de;
+  --color-secondary: #9d8e82;
+  --color-pale-blue: #e6e5de;
   --color-black: black;
   --color-white: white;
   --color-charcoal: #484442 ;
   --color-rust: #6c2506;
-  --color-tan: #9d8e82;
-  --color-soft-blue: ;
   --color-dark-teal: #01343e;
 
   --font-primary: "Montserrat", sans-serif;
@@ -14,5 +13,34 @@
 }
 
 html {
-  font-family: var(--font-primary)
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  color: var(--color-charcoal);
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+ul, ol, dl {
+
 }
