@@ -34,19 +34,19 @@ h3 {
 h4 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h5 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: semibold;
+  font-weight: bold;
 }
 
 h6 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 
