@@ -14,33 +14,50 @@
 
 html {
   font-family: var(--font-primary);
-  font-weight: bold;
+  font-style: normal;
+  font-weight: normal;
 }
 
 h1, h2 {
   font-family: var(--font-secondary);
-  font-weight: bold;
   font-style: normal;
+  font-weight: bold;
 }
 
-h3 {
+h3, h4 {
   font-family: var(--font-secondary);
+  font-style: normal;
   font-weight: normal;
   color: var(--color-charcoal);
 }
 
-h4 {
-
+h5 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: bold;
 }
 
 h5 {
-
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: bold;
 }
 
-h6 {
-
-}
 
 ul, ol, dl {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+}
 
+dt {
+  font-weight: bold;
+}
+
+mark {
+  background-color: var(--color-primary);
+}
+
+a {
+  color: var(--color-rust);
 }
