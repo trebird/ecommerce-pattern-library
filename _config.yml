@@ -2,4 +2,4 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Playfair+Display:400,700,900,900i&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Playfair+Display:400,700&display=swap"

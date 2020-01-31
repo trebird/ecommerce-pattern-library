@@ -15,7 +15,7 @@
 html {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: normal;
+  font-weight: light;
 }
 
 h1, h2 {
@@ -24,14 +24,14 @@ h1, h2 {
   font-weight: bold;
 }
 
-h3, h4 {
+h3 {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: normal;
   color: var(--color-charcoal);
 }
 
-h5 {
+h4 {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: bold;
@@ -40,7 +40,13 @@ h5 {
 h5 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: bold;
+  font-weight: semibold;
+}
+
+h6 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: medium;
 }
 
 
