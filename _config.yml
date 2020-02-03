@@ -9,9 +9,10 @@ patternbot:
   colors:
     sidebar: "--color-primary-dark"
     accent: "--color-secondary"
-    background: "--color-primary-light"
     patterns:
       brand.logos: "--color-secondary-light"
+      buttons.basic: "--color-primary"
+      buttons.ghost: "--color-primary-dark"
   rationales:
     typefaces.primary: |
       Montserrat was selected because it is beautiful open font that creates space and calmness. The versatile typeface is to be used for all body copy in most cases and some smaller headings, buttons and cards.

@@ -1,0 +1,58 @@
+.btn {
+  border: solid 2px;
+  border-radius: 13px;
+  font-weight: 500;
+  padding: .5em 1em;
+}
+
+/** Sign up **/
+.btn-teal {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
+
+}
+
+.btn-teal:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-primary-dark)
+}
+
+/** Shop **/
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-primary-light);
+  color: var(--color-primary-light);
+}
+
+.btn-ghost:hover {
+  background-color: rgba(174, 186, 188, 0.75);
+  border-color: var(--color-primary-light);
+  color: var(--color-primary-light);
+}
+
+/** Cart **/
+.btn-rust {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-secondary-light);
+}
+
+.btn-rust:hover {
+  background-color: var(--color-secondary-light);
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+/** Checkout **/
+.btn-blue {
+  background-color: var(--color-primary);
+  color: var(--color-primary-dark);
+}
+
+.btn-blue:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
