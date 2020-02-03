@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "ǦoneWick"
+  description:
+    Online shop for authentic home decor pieces.
   font_url: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Playfair+Display:400,700&display=swap"
+  colors:
+    background: "--color-primary-light"
+    accent: "--color-secondary"
+    patterns:
+      brand.logos:"--color-primary"
+  rationales:
+    typefaces.primary:
+      Montserrat was selected because it is beautiful open font that creates space and calmness. The versatile typeface is to be used for all body copy in most cases and some smaller headings, buttons and cards.
+    typefaces.secondary:
+      Playfair Display was selected due to its timelessness and contrast. It is to be used for most headings in banners and product pages.
+    colors.primary:
+      The primary colours contrast warm and cool tones of fire and wind. They should be used for headings, text, buttons and highlights.
+    colors.secondary:
+      The secondary colours are soft and light. They should be used for most backgrounds and some text.
