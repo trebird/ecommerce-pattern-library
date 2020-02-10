@@ -67,3 +67,7 @@ mark {
 a {
   color: var(--color-rust);
 }
+
+p {
+  font-weight: 300;
+}
