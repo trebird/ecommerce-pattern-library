@@ -55,18 +55,20 @@ a {
   box-shadow: -10px 10px 30px 0px rgba(0,0,0,0.35);
 }
 
-/** Banners **/
-.banner {
-  position: relative;
-  background:
-  linear-gradient(to top, rgba(11, 35, 40, 0.6),rgba(11, 35, 40, 0.6)) no-repeat center bottom,
-  url("../images/banner.jpg") no-repeat center left / cover;
-  padding-top: 60%;
+/** Checkout Card **/
+.checkout-card {
+  background-color: rgba(1, 52, 62, .5)
 }
 
-.banner-content {
-  position: absolute;
-  width: 100%;
-  bottom: 30%;
-  left: 5%;
-  color: var(--color-primary-light);
+/** Product **/
+.collection {
+  color: var(--color-secondary-dark);
+}
+
+.product-name {
+  color: var(--color-secondary-dark);
+}
+
+.price {
+  color: var(--color-secondary);
+}

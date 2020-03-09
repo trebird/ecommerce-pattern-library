@@ -1,4 +1,4 @@
-title: "Cards"
+title: "Images & Cards"
 description: |
   Cards should be used in situations where specific information or elements are to be grouped together.
 
@@ -13,7 +13,5 @@ patterns:
     padding: 4em
     description: |
       Image cards should be used decoratively, where it will be placed on a light background.
-  banner:
-    title: "Banner"
-    description: |
-      Image cards should be used decoratively, where it will be placed on a light background.
+  product:
+    title: "Product"
