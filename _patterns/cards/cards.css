@@ -1,3 +1,4 @@
+/** Products Card **/
 .products-card {
   max-width: 200px;
   border-radius: 20px;
@@ -31,3 +32,27 @@ a {
 .push-1-4 {
   margin-bottom: .325rem;
 }
+
+/** Image Card **/
+
+.image-card .solid {
+  position: relative;
+  z-index: 0;
+  width: 420px;
+  height: 250px;
+  border-radius: 50px;
+  color: var(--color-secondary);
+}
+
+.image-card img {
+  position: absolute;
+  z-index: 1000;
+  top: 6em;
+  left: 6em;
+  width: 420px;
+  height: 250px;
+  border-radius: 50px;
+  box-shadow: -10px 10px 30px 0px rgba(0,0,0,0.35);
+}
+
+/** Banners **/

@@ -1,3 +1,15 @@
+title: "Cards"
+description: |
+  Cards should be used in situations where specific information or elements are to be grouped together.
+
 patterns:
-  card:
+  products-card:
+    title: "Products Card"
     padding: 2em
+    description: |
+      Products cards should be used to display products on the product listing page, where it will link to the product page.
+  image-card:
+    title: "Image Card"
+    padding: 4em
+    description: |
+      Image cards should be used decoratively, where it will be placed on a light background.
