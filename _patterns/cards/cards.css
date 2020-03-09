@@ -57,7 +57,10 @@ a {
 
 /** Checkout Card **/
 .checkout-card {
-  background-color: rgba(1, 52, 62, .5)
+  background-color: rgba(1, 52, 62, .85);
+  color: var(--color-primary-light);
+  border-radius: 50px;
+  max-width: 600px;
 }
 
 /** Product **/

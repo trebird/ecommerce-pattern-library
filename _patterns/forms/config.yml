@@ -1,7 +1,7 @@
 title: "Forms"
 
 patterns:
-  products-card:
+  name:
     title: "Name"
     padding: 2em
     description: |
