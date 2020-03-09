@@ -13,3 +13,7 @@ patterns:
     padding: 4em
     description: |
       Image cards should be used decoratively, where it will be placed on a light background.
+  banner:
+    title: "Banner"
+    description: |
+      Image cards should be used decoratively, where it will be placed on a light background.
