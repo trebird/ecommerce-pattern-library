@@ -1,5 +1,23 @@
+/** Checkout Card **/
+.checkout-form {
+  background-color: rgba(1, 52, 62, .85);
+  color: var(--color-primary-light);
+  border-radius: 50px;
+  max-width: 600px;
+}
+
+fieldset {
+  border-top: 0;
+}
+
 .flag-optional {
   color: var(--color-secondary);
+}
+
+input {
+  background-color: rgba(174, 186, 188, 0.8);
+  border: none;
+  border-radius: 10px;
 }
 
 .is-validated input:invalid,
@@ -7,11 +25,12 @@
 .is-validated:invalid,
 .is-validated[type="checkbox"] {
   border-color: #f33;
+  boder-radius: 10px;
 }
 
 .error-message {
   display: none;
-  background-color: rgba(108, 37, 6, .25);
+  background-color: rgba(174, 186, 188, 0.5);
   color: var(--color-secondary);
 }
 

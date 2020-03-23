@@ -1,15 +1,18 @@
 .banner {
-  position: relative;
   background:
   linear-gradient(to top, rgba(11, 35, 40, 0.6),rgba(11, 35, 40, 0.6)) no-repeat center bottom,
   url("../images/banner.jpg") no-repeat center left / cover;
-  padding-top: 60%;
 }
 
 .banner-content {
-  position: absolute;
-  width: 100%;
-  bottom: 30%;
-  left: 5%;
   color: var(--color-primary-light);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+
 }

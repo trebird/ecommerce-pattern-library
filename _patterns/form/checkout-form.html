@@ -1,0 +1,65 @@
+<div class="checkout-form push">
+
+
+    <form class="payment max-length island-2" method="post" action="#" novalidate>
+
+      <div class="grid gutter">
+        <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
+          <fieldset class="push-2 island-1-8">
+            <legend class="push">Shipping</legend>
+            <p class="address">Thomas Anderson<br>13 Continental Ave<br>Ottawa, ON<br>K2P 0C7</p>
+          </fieldset>
+        </div>
+
+        <div>
+          <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
+            <fieldset class="push-0 island-1-8">
+              <legend class="">Payment</legend>
+            </fieldset>
+          </div>
+
+        <div class="unit xs-1 error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+          <h3 class="push-0 island-1-8">
+            <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <span class="icon-label">There are items that require your attention</span>
+          </h3>
+        </div>
+
+        <div class="unit xs-1 push island-1-8">
+          <label for="name">Name on card</label>
+          <input id="name" required aria-describedby="name-error">
+          <p class="error-message milli island-1-4 push-0" id="name-error">
+            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#eerror" /></svg></i>
+            <span class="icon-label">Please enter your name as it appears on card.</span>
+          </p>
+        </div>
+
+        <div class="unit xs-1 push island-1-8">
+          <label for="card-number">Card Number</label>
+          <input type="card-number" id="card-number" required aria-describedby="card-number-error">
+          <p class="error-message milli island-1-4 push-0" id="email-error">
+            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <span class="icon-label">Please enter your card number.</span>
+          </p>
+        </div>
+
+        <div class="unit xs-1-2" tabindex="0">
+          <div class="push-1-2 island-1-4">
+            <label class="milli" for="month">Valid through</label>
+            <input id="month">
+          </div>
+        </div>
+
+        <div class="unit xs-1-2 island-1-4" tabindex="0">
+          <div class="push-1-2">
+            <label class="milli" for="cvc">CVC</label>
+            <input id="cvc">
+          </div>
+        </div>
+
+        <div class="pad-t-1-2">
+          <button class="btn btn-blue" type="submit">Checkout</button>
+        </div>
+      </form>
+    </div>
+  </div>

@@ -7,7 +7,6 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
-
   ghost:
     title: "Ghost"
     description: |
