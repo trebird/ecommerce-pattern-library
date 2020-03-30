@@ -1,6 +1,6 @@
 /** Checkout Card **/
 .checkout-form {
-  background-color: rgba(1, 52, 62, .85);
+  background-color: rgba(1, 52, 62, .5);
   color: var(--color-primary-light);
   border-radius: 50px;
   max-width: 600px;
@@ -8,6 +8,10 @@
 
 fieldset {
   border-top: 0;
+}
+
+.legend {
+  font-weight: lighter;
 }
 
 .flag-optional {
@@ -18,6 +22,7 @@ input {
   background-color: rgba(174, 186, 188, 0.8);
   border: none;
   border-radius: 10px;
+  height: 2.5em;
 }
 
 .is-validated input:invalid,
