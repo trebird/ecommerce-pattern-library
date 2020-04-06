@@ -1,0 +1,6 @@
+title: "Secondary Navigation"
+
+patterns:
+  next-prev:
+    title: "Next & Previous Page"
+    padding: 2em

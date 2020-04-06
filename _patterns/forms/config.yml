@@ -1,0 +1,10 @@
+title: "Forms"
+description: |
+  Forms should be used wherever information needs to be entered.
+
+patterns:
+  checkout-form:
+    title: "Checkout Form"
+    padding: 2em
+    description: |
+      The checkout form should be used to gather shipping and payment info for checkout.

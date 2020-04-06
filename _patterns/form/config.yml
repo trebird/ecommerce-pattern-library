@@ -1,7 +1,0 @@
-title: "Form"
-
-patterns:
-  name:
-    title: "Name"
-    padding: 2em
-    description: |

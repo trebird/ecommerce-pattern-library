@@ -1,0 +1,25 @@
+/** Product Filters **/
+.filter {
+  max-width: 10em;
+  color: var(--color-secondary);
+}
+
+select {
+  background-color: rgba(174, 186, 188, 0.25);
+  border: 0;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: 600;
+}
+
+/** Next & Previous Page **/
+
+.next-prev a {
+  color: var(--color-secondary);
+}
+
+.next-prev a:hover {
+  font-weight: 500;
+}
