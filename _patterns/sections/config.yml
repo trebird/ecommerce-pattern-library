@@ -6,3 +6,23 @@ patterns:
     padding: 2em
     description: |
       Intro text should be used at the top of the page to introduce page content.
+  text-chunk:
+    title: "Text"
+    padding: 2em
+    description: |
+      Chunks of text can be used for paragraphs, or descriptions.
+  section-intro:
+    title: "Section intro"
+    padding: 2em
+    description: |
+      Section intro should be used to introduce content, but is lower in the hierarchy than intro text.
+  banner-text:
+    title: "Banner Text"
+    padding: 2em
+    description: |
+      Banner text should be used where content is required in a banner.
+  banner-text-button:
+    title: "Banner Text & Button"
+    padding: 2em
+    description: |
+      Banner text and button should be used where content and call to action are required in a banner.
