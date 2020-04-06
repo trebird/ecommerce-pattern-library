@@ -11,7 +11,7 @@ patternbot:
     accent: "--color-secondary"
     patterns:
       brand.logos: "--color-secondary-light"
-      buttons.basic: "--color-primary"
+      buttons.basic: "--color-primary-light"
       buttons.ghost: "--color-primary-dark"
       buttons.blue: "--color-primary-dark"
   rationales:

@@ -1,0 +1,22 @@
+/** Intro Text **/
+
+.intro-text {
+  color: var(--color-primary-dark);
+}
+
+.intro-text p {
+  font-weight: 400;
+}
+
+/** Text Chunk **/
+
+.text-chunk {
+  color: var(--color-secondary-dark);
+}
+
+
+/** Section Intro **/
+
+.section-intro {
+  color: var(--color-secondary-dark);
+}

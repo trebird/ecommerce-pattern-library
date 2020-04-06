@@ -7,4 +7,9 @@ patterns:
     title: "Checkout Form"
     padding: 2em
     description: |
-      The checkout form should be used to gather shipping and payment info for checkout.
+      The checkout form should be used to gather shipping and payment information for checkout.
+  sign-up:
+    title: "Sign up"
+    padding: 2em
+    description: |
+      The sign up form should be used for email address entry.

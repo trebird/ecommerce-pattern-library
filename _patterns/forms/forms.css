@@ -48,3 +48,9 @@ input {
 .is-validated:invalid + label + .error-message, .error-bg {
   display: block;
 }
+
+/** Sign up **/
+
+.sign-up {
+  color: var(--color-primary-dark);
+}

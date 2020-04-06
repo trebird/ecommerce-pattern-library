@@ -2,20 +2,18 @@
   border: solid 3px;
   border-radius: 13px;
   font-weight: 500;
-  padding: .5em 1em;
+  padding: .5em 2em;
 }
 
 /** Sign up **/
-.btn-teal {
+.btn-basic {
+  border: 0;
   background-color: var(--color-primary-dark);
-  border-color: var(--color-primary-dark);
   color: var(--color-primary-light);
-
 }
 
-.btn-teal:hover {
+.btn-basic:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-primary-dark);
   color: var(--color-primary-dark)
 }
 
@@ -36,26 +34,24 @@
 
 /** Cart **/
 .btn-rust {
+  border: 0;
   background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
   color: var(--color-secondary-light);
 }
 
 .btn-rust:hover {
-  background-color: var(--color-secondary-light);
-  border-color: var(--color-secondary);
-  color: var(--color-secondary);
+  background-color: var(--color-secondary-dark);
+  color: var(--color-secondary-light);
 }
 
 /** Checkout **/
 .btn-blue {
+  border: 0;
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
   color: var(--color-primary-dark);
 }
 
 .btn-blue:hover {
   background-color: var(--color-primary-light);
-  border-color: var(--color-primary-light);
   color: var(--color-primary-dark);
 }

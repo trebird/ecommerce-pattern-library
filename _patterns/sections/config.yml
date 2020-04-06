@@ -1,0 +1,8 @@
+title: "Sections"
+
+patterns:
+  intro-text:
+    title: "Intro text"
+    padding: 2em
+    description: |
+      Intro text should be used at the top of the page to introduce page content.
