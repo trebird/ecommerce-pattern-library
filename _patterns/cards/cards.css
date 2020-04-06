@@ -24,6 +24,10 @@ a {
   color: var(--color-secondary);
 }
 
+.products-card:hover .products-card {
+  color: var(--color-secondary);
+}
+
 .push {
   margin-bottom: 1.3rem;
 }
