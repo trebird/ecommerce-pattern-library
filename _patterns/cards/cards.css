@@ -1,4 +1,9 @@
 /** Products Card **/
+
+html {
+  background-color: pink;
+}
+
 .products-card {
   max-width: 200px;
   border-radius: 20px;
@@ -25,7 +30,7 @@ a {
 }
 
 .products-card:hover .products-card {
-  color: var(--color-secondary);
+  background-color: var(--color-secondary-light);
 }
 
 .push {
