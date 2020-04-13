@@ -1,0 +1,26 @@
+footer {
+  background-color: var(--color-secondary-dark);
+}
+
+.terms, .socials a {
+  color: var(--color-primary-light);
+  font-weight: normal;
+}
+
+.terms:hover {
+  font-weight: 600;
+}
+
+i {
+  max-width: 50px;
+}
+
+.icon-label {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-light);
+}
+
+.copyright {
+  font-family: var(--font-primary);
+  font-weight: normal;
+}

@@ -4,7 +4,11 @@ header {
 
 nav a {
   color: var(--color-secondary);
-  font-weight: 500;
+  font-weight: 400;
+}
+
+nav a:hover {
+  font-weight: 600;
 }
 
 i {
