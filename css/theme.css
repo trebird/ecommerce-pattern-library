@@ -18,23 +18,28 @@ html {
   font-weight: light;
 }
 
-h1, h2 {
+h1 {
   font-family: var(--font-secondary);
-  font-style: normal;
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--font-secondary);
   font-weight: bold;
 }
 
 h3 {
-  font-family: var(--font-secondary);
-  font-style: normal;
-  font-weight: normal;
-  color: var(--color-charcoal);
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark);
+  font-weight: bold;
+
 }
 
 h4 {
-  font-family: var(--font-primary);
-  font-style: normal;
-  font-weight: 600;
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark)
+  font-weight: normal;
 }
 
 h5 {
@@ -62,12 +67,17 @@ dt {
 
 mark {
   background-color: var(--color-primary);
+  font-weight: 400;
 }
 
 a {
-  color: var(--color-rust);
+  color: var(--color-secondary);
+}
+
+a:hover {
+  font-weight: 600;
 }
 
 p {
-  font-weight: 300;
+  font-weight: normal;
 }
