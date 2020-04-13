@@ -41,7 +41,7 @@ a {
 /** Image Card **/
 
 .image-card .solid {
-  position: relative;
+  position: absolute;
   z-index: 0;
   width: 420px;
   height: 250px;
@@ -50,10 +50,10 @@ a {
 }
 
 .image-card img {
-  position: absolute;
+  position: relative;
   z-index: 1000;
-  top: 6em;
-  left: 6em;
+  top: 2em;
+  left: 2em;
   width: 420px;
   height: 250px;
   border-radius: 50px;

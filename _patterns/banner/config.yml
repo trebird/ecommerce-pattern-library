@@ -1,2 +1,9 @@
-banner:
-  title: "Banner"
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Your time. Your space."
+      - name: text
+        type: string
+        example: "Create an ambiance that bends and transcends reality. Out of this world."
