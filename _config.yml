@@ -28,3 +28,8 @@ patternbot:
       The primary colours consist of cool tones of water and wind. They should be used for headings, text, buttons and highlights. The light colours should be used for most backgrounds.
     colors.secondary: |
       The secondary colours contrast the primary palette with warm tones of fire and wood. The rust colour should be used in relation to viewing and adding products to the cart. The light colours can be used for most backgrounds and some text.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+    product: |
+      The product layout should be used for the product listing page.
