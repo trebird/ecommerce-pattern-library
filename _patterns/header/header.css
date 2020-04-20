@@ -1,13 +1,9 @@
-header {
-  z-index: 1000;
-  width: 100%;
-  background:
-  linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) no-repeat center bottom,
-  url("../images/banner.jpg") no-repeat center left / cover;
+nav {
+  padding-left: 1em;
 }
 
 nav a {
-  color: var(--color-primary-light);
+  color: var(--color-secondary);
   font-weight: 400;
 }
 
@@ -16,16 +12,71 @@ nav a:hover {
 }
 
 i {
-  max-width: 50px;
+  max-width: 45px;
+}
+
+.bag-light {
+  opacity: 0;
+  z-index: 1003
+}
+
+nav img {
+  max-width: 20px;
 }
 
 .icon-label {
   font-family: var(--font-secondary);
-  color: var(--color-primary-light);
+  color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  header {
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
+    background:
+    linear-gradient(to top, rgba(0, 0, 0, 0),rgba(100, 100, 100, 0.5)) no-repeat center bottom,
+    url("../images/banner.jpg") no-repeat center left / cover;
+  }
+
+  nav {
+    padding-left: 3em;
+  }
+
+  nav a {
+    color: var(--color-primary-light);
+    font-weight: 400;
+    text-align: center;
+  }
+
+  nav i {
+    max-width: 20px;
+  }
+
+  .bag-dark {
+    opacity: 0;
+  }
+
+  .bag-light {
+    opacity: 100%;
+    padding-top: 1em;
+  }
+
+  .icon-label {
+    font-family: var(--font-secondary);
+    color: var(--color-primary-light);
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
+  nav {
+    padding-left: 2em;
+  }
 
+  .icon-label {
+    padding-right: 2em;
+  }
 
 }

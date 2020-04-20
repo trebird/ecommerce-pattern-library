@@ -2,6 +2,11 @@
   max-height: 800px;
 }
 
+.banner-content {
+  padding-left: 3em;
+}
+
+
 .colour-1 {
   color: var(--color-primary-light);
 }
@@ -18,7 +23,7 @@
 
 }
 
-@media only screen and (min-width: 70em) {
+@media only screen and (min-width: 38em) {
 
   .banner-content {
     padding-left: 2.5em;
