@@ -42,24 +42,30 @@ a {
 
 .image-card .solid {
   position: absolute;
-  display: flex;
   z-index: 0;
-  width: 420px;
-  height: 250px;
-  border-radius: 50px;
+  width: 16.8em;
+  height: 10em;
+  border-radius: 40px;
+}
+
+.image-card .colour-1 {
   color: var(--color-secondary);
+}
+
+.image-card .colour-2 {
+  color: var(--color-primary-dark);
 }
 
 .image-card img {
   position: relative;
-  display: flex;
   z-index: 1000;
-  top: 2em;
-  left: 2em;
-  width: 420px;
-  height: 250px;
-  border-radius: 50px;
+  top: 1.25em;
+  left: 1.25em;
+  width: 16.8em;
+  height: 10em;
+  border-radius: 40px;
   box-shadow: -10px 10px 30px 0px rgba(0,0,0,0.35);
+  margin-right: 1em;
 }
 
 /** Product **/

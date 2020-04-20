@@ -13,5 +13,12 @@ patterns:
     padding: 4em
     description: |
       Image cards should be used decoratively, where it will be placed on a light background.
+    fields:
+      - name: image
+        type: string
+        example: "vanilli.jpg/"
+      - name: colour
+        type: string
+        example: "colour-1"
   product:
     title: "Product"

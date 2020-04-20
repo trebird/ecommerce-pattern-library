@@ -1,9 +1,13 @@
 header {
-
+  z-index: 1000;
+  width: 100%;
+  background:
+  linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)) no-repeat center bottom,
+  url("../images/banner.jpg") no-repeat center left / cover;
 }
 
 nav a {
-  color: var(--color-secondary);
+  color: var(--color-primary-light);
   font-weight: 400;
 }
 
@@ -17,5 +21,11 @@ i {
 
 .icon-label {
   font-family: var(--font-secondary);
-  color: var(--color-secondary);
+  color: var(--color-primary-light);
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
 }

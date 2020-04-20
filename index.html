@@ -3,8 +3,16 @@ layout: default
 ---
 
 {% pattern banner/banner button_text="Shop Continental" button_url="/products/" heading="Your time. Your space." text="Create an ambiance that bends and transcends reality. Out of this world." image="banner-1.jpg" colour="colour-1" %}
-{% pattern sections/image-text %}
 
- </div>
+<div class="gutter-2 island-2 center-content">
 
+  <div class="grid grid-middle">
+    <div class="unit s-1 m-1 l-1-2 push-2 island">
+      {% pattern cards/image-card image="vanilli.jpg/" colour="colour-1" %}
+    </div>
+    <div class="unit s-1 m-1 l-1-2 island">
+      {% pattern sections/section-intro %}
+    </div>
+
+  </div>
 </div>

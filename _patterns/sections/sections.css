@@ -1,7 +1,7 @@
 /** Intro Text **/
 
 .intro-text {
-  color: var(--color-primary-dark);
+  color: var(--color-secondary);
 }
 
 .intro-text p {
@@ -14,9 +14,20 @@
   color: var(--color-secondary-dark);
 }
 
-
 /** Section Intro **/
 
 .section-intro {
   color: var(--color-secondary-dark);
+}
+
+/** Banner Text **/
+
+.banner-text {
+  color: var(--color-primary-light);
+}
+
+/** Banner Text & Button**/
+
+.banner-text {
+  color: var(--color-primary-light);
 }
