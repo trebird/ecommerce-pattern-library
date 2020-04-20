@@ -33,3 +33,5 @@ patternbot:
       The default layout should be used for almost every page, it includes the website's primary header & footer.
     product: |
       The product layout should be used for the product listing page.
+    check-out: |
+      The checkout layout should be used for the checkout page.

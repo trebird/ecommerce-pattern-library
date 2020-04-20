@@ -17,7 +17,7 @@ i {
 
 .bag-light {
   opacity: 0;
-  z-index: 1003
+  z-index: 1003;
 }
 
 nav img {
@@ -36,8 +36,8 @@ nav img {
     z-index: 1001;
     width: 100%;
     background:
-    linear-gradient(to top, rgba(0, 0, 0, 0),rgba(100, 100, 100, 0.5)) no-repeat center bottom,
-    url("../images/banner.jpg") no-repeat center left / cover;
+    linear-gradient(to top, rgba(0, 0, 0, 0),rgba(100, 100, 100, 0.6)) no-repeat center bottom;
+    m
   }
 
   nav {

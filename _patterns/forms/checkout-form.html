@@ -1,7 +1,8 @@
-<div class="checkout-form push pad-t pad-b-2 pad-r">
+<div class="island-2 pad-b-2 center-content checkout-bg">
 
+  <div class="checkout-form push-2 pad-t pad-b-2 pad-r">
 
-    <form class="payment max-length island pad-b-2" method="post" action="#" novalidate>
+    <form class="payment max-length island" method="post" action="#" novalidate>
 
       <div class="grid gutter">
         <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
@@ -38,9 +39,9 @@
           </div>
         </div>
 
-        <div class="unit xs-1-2 push" tabindex="0">
+        <div class="unit xs-1 s-1-2 push" tabindex="0">
           <div class="push-1-2 island-1-4">
-            <label class="milli push-1-8" for="expiry">Expiry (MMDD)</label>
+            <label class="milli push-1-8" for="expiry">Expiry</label>
             <div class="error-bg">
               <input type="expiry" id="expiry" required aria-describedby="expiry-error">
               <p class="error-message milli island-1-4 push-0" id="expiry-error">
@@ -50,7 +51,7 @@
           </div>
         </div>
 
-        <div class="unit xs-1-2 island-1-4" tabindex="0">
+        <div class="unit xs-1 s-1-2 island-1-4 push" tabindex="0">
           <div class="push-1-2">
             <label class="milli push-1-8" for="cvc">CVC</label>
             <div class="error-bg">
@@ -62,9 +63,9 @@
           </div>
         </div>
 
-        <div class="island-1-4 push">
-          <button class="btn btn-blue" type="submit">Checkout</button>
+        <div class="unit xs-1 island-1-4 push">
+          {% pattern buttons/blue text="Do it" url="/checkout/" %}
         </div>
-      </form>
-    </div>
+    </form>
   </div>
+</div>

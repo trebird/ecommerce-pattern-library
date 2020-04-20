@@ -20,5 +20,5 @@ patterns:
       - name: colour
         type: string
         example: "colour-1"
-  product:
+  product-view:
     title: "Product"

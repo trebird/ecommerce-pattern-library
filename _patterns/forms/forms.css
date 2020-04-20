@@ -4,6 +4,13 @@
   color: var(--color-primary-light);
   border-radius: 50px;
   max-width: 600px;
+
+  margin-bottom: 10em;
+}
+
+.checkout-bg {
+  background-image: url("../images/bg-img-2.jpg");
+  height:70em;
 }
 
 fieldset {
