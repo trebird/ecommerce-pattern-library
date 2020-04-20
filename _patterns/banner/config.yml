@@ -7,3 +7,17 @@ patterns:
       - name: text
         type: string
         example: "Create an ambiance that bends and transcends reality. Out of this world."
+      - name: image
+        type: string
+        example: "banner-1.jpg"
+      - name: colour
+        type: string
+        example: "colour-1"
+      - name: button_text
+        type: string
+        example: "Shop Continental"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false

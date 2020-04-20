@@ -1,7 +1,12 @@
-<div class="banner pad-t pad-b">
-  <div class="banner-content wrapper gutter-2">
+<div class="banner crop relative">
+
+  <img class="banner-img img-flex"src="/images/{{include.image}}/" alt="" aria-details="banner image of a living space">
+
+  <div class="banner-content {{include.colour}} absolute pin-c wrapper gutter pad-t-2">
     <h1 class="tena push-1-2">{{include.heading}}</h1>
     <p class="milli">{{include.text}}</p>
-    <a class="btn btn-ghost" href="#">Shop Continental</a>
+    {% if include.button_url %}
+      {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

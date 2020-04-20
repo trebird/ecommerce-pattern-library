@@ -1,18 +1,28 @@
 .banner {
-  background:
-  linear-gradient(to top, rgba(11, 35, 40, 0.6),rgba(11, 35, 40, 0.6)) no-repeat center bottom,
-  url("../images/banner.jpg") no-repeat center left / cover;
+  max-height: 800px;
 }
 
-.banner-content {
+.colour-1 {
   color: var(--color-primary-light);
 }
 
-@media only screen and (min-width: 38em) {
+.colour-2 {
+  color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 25em) {
 
   .banner-content {
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-left: 5em;
   }
+
+}
+
+@media only screen and (min-width: 70em) {
+
+  .banner-content {
+    padding-left: 0;
+  }
+
 
 }

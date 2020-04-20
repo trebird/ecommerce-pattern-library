@@ -7,15 +7,43 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "Sign up"
+      - name: url
+        type: url
+        example: "/index/"
   ghost:
     title: "Ghost"
     description: |
       The ghost button is specifically for banners, where it will be placed in front of busy images.
+    fields:
+      - name: text
+        type: string
+        example: "Shop Continental"
+      - name: url
+        type: url
+        example: "/products/"
   rust:
     title: "Rust"
     description: |
       The rust button is specifically for the product page, where it will be placed in front of a light background.
+    fields:
+      - name: text
+        type: string
+        example: "Add to bag"
+      - name: url
+        type: url
+        example: "/checkout/"
   blue:
     title: "Blue"
     description: |
       The blue button is specifically for the checkout page. It should always be used in front of a dark background.
+    fields:
+      - name: text
+        type: string
+        example: "Do it"
+      - name: url
+        type: url
+        example: "/checkout/"

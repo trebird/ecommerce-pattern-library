@@ -42,6 +42,7 @@ a {
 
 .image-card .solid {
   position: absolute;
+  display: flex;
   z-index: 0;
   width: 420px;
   height: 250px;
@@ -51,6 +52,7 @@ a {
 
 .image-card img {
   position: relative;
+  display: flex;
   z-index: 1000;
   top: 2em;
   left: 2em;
