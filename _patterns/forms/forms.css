@@ -4,8 +4,7 @@
   color: var(--color-primary-light);
   border-radius: 50px;
   max-width: 600px;
-
-  margin-bottom: 10em;
+  margin: 10em auto;
 }
 
 .checkout-bg {
