@@ -33,7 +33,6 @@ input {
 
 .error-bg {
   background-color: rgba(108, 37, 6, 0.15);
-  display: none;
   border-radius: 10px;
 }
 
@@ -47,15 +46,19 @@ input {
   border-bottom-right-radius: 10px;
 }
 
+.error-message:first-child,
+input:invalid + .error-message,
+input:invalid + label + .error-message {
+  display: block;
+}
+
 .is-validated > .error-message:first-child,
 .is-validated input:invalid + .error-message,
 .is-validated input:invalid + label + .error-message,
 .is-validated:invalid + .error-message,
-.is-validated:invalid + label + .error-message, .error-bg {
+.is-validated:invalid + label + .error-message {
   display: block;
 }
-
-/** Sign up **/
 
 .sign-up {
   color: var(--color-primary-dark);

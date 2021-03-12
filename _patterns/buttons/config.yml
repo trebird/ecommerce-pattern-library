@@ -47,3 +47,11 @@ patterns:
       - name: url
         type: url
         example: "/checkout/"
+  submit:
+    title: "Form Submission Button"
+    description: |
+      This button submits the form on the checkout page.
+    fields:
+      - name: text
+        type: string
+        example: "Do it"
